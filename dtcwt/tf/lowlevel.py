@@ -205,7 +205,7 @@ def rowfilter(X, h, align=False):
 
 
 def coldfilt(X, ha, hb, no_decimate=False):
-    """
+    r"""
     Filter the columns of image X using the two filters ha and hb =
     reverse(ha).
 
